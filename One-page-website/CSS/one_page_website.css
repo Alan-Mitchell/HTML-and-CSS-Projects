@@ -3,13 +3,9 @@ body{
     font-family: 'Courier New', Courier, monospace;
     border: black;
 }
-ul{
+input{
 
     margin: 24%;
     width: 35%;
-}
+    border-radius: 12px;}
 
- img{
-    border-radius: 12px;
-
-}
