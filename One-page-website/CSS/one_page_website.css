@@ -1,0 +1,15 @@
+body{
+    font-size: medium;
+    font-family: 'Courier New', Courier, monospace;
+    border: black;
+}
+ul{
+
+    margin: 24%;
+    width: 35%;
+}
+
+ img{
+    border-radius: 12px;
+
+}
