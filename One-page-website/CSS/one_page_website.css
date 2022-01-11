@@ -2,10 +2,39 @@ body{
     font-size: medium;
     font-family: 'Courier New', Courier, monospace;
     border: black;
+    
 }
-input{
 
-    margin: 24%;
-    width: 35%;
-    border-radius: 12px;}
+body {
+    background-color: rgb(255, 102, 0);
+}
 
+.pictures{
+    display: grid;
+    grid-template-rows: auto;
+    justify-content: left;
+    align-content: center;
+
+}
+.pictures img{
+    width: 200px;
+    height: 200px;
+    cursor: pointer;
+}
+
+#lightbox{
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .8);
+    display: none;
+
+}
+
+#lightbox.active{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
