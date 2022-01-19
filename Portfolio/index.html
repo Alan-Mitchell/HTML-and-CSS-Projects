@@ -3,7 +3,8 @@
     <head>
         <meta charset="utf-8">
         <title>Portfolo:Alan Mitchell</title>
-        <link rel="stylesheet" href="./CSS/Portfolio.css">        
+        <link rel="stylesheet" href="./CSS/Portfolio.css">       
+        <script src="js/portfolio.js" defer></script> 
     </head>
     <body>
         <!--Body-->
@@ -47,6 +48,35 @@
                 </p>
             </strong>
         </div>
+        <div id="Slideshow">
+            <div id="Slideshow_Background"> 
+                <div id="Slideshow_Container">
+                    <!-- Slide 1 of 2 -->
+                    <div class="mySlides fade">
+                        <img class="Slideshow_Images" src="logo.jpg" alt="Web Development">
+                        <div class="text">TRAINED IN WED DEVELOPMENT</div>
+                    </div>
+                    <!-- Slide 2 of 2 -->
+                    <div class="mySlides fade">
+                        <img class="Slideshow_Images" src="psql.jpg" alt="HTML, CSS, and JS logos"> 
+                        <div class="text">I am a full-stack software developer,<br> trained in:<br>python and SQL</div>
+                    </div>
+                    
+                    </div>
+                    <!-- Previous and next buttons -->
+                    <a class="Previous" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="Next" onclick="plusSlides(1)">&#10095;</a>
+                </div>
+                <br> <!-- Adds a space between the slideshow images and the dots -->
+
+                <!-- Slideshow dots (these are another way for users to navigate through the slideshow) -->
+                <div style="text-align: center">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+
+                </div>
+            </div>
+        </div>
          <!--About section-->
          <div class="Row" id="About">
             <!--Left column-->
@@ -57,7 +87,7 @@
             <div class="Column_1">
                 <h1>About</h1>
                 <p>
-                    I am a software developer who loves to code! As a father of two, I enjoy time with my family and traveling. 
+                    I am a software developer who loves to code! I enjoy time with my family and traveling. 
                     <br>
                     <br>I am a graduate of <a href="https://www.learncodinganywhere.com" target="_blank">The Tech Academy</a>’s Software Developer Boot Camp, and trained and experienced in the following web and programming languages: HTML, CSS, JavaScript, SQL, C# and more. 
                     <br>
